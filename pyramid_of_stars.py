@@ -1,6 +1,3 @@
-from unittest import result
-
-
 def pyramid_of_stars():
 
     n = int(input("Enter height for pyramid : "))
