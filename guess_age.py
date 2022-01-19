@@ -6,8 +6,8 @@ today_year = today.year
 def guess_age():
     dob = input("Enter Date of Birth (21-05-1996): ")
     age = today_year - int(dob[-4:])
-
-    return age
+    print(age)
+    return f"Your Age is, {age}"
 
             
 result = guess_age()
